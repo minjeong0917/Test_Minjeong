@@ -17,6 +17,7 @@ Apolygon::Apolygon()
 
 	Renderer = CreateDefaultSubObject<MyCustomRenderer>();
 	Renderer->SetScale3D({ 200.0f, 200.0f, 200.0f });
+	Renderer->SetRotation({ 0.0f,45.0f,0.0f });
 	Renderer->SetupAttachment(RootComponent);
 
 }
@@ -28,7 +29,6 @@ Apolygon::~Apolygon()
 void Apolygon::BeginPlay()
 {
 	AActor::BeginPlay();
-	Renderer->SetRotation({ 0.0f,45.0f,0.0f });
 
 
 }
