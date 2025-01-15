@@ -5,7 +5,7 @@ MyCustomRenderer::MyCustomRenderer()
 {
 	CreateRenderUnit();
 	SetMesh("Cube");
-	SetMaterial("SpriteMaterial");
+	SetMaterial("MyMaterial");
 
 	MyColor.Albedo = float4(1.0f, 1.0f, 1.0f, 1.0f);
 

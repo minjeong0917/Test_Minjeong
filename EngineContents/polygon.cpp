@@ -36,7 +36,5 @@ void Apolygon::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
 
-	Renderer->AddLocalRotation({ 0.0f,-100.0f * _DeltaTime, 0.0f });
-
 
 }
