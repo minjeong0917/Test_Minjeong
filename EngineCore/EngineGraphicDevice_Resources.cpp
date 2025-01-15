@@ -160,37 +160,37 @@ void UEngineGraphicDevice::MeshInit()
         Vertices.resize(24);
 
 
-        Vertices[0] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.5f), {0.5f, 1.0f}, {1.0f, 0.0f, 0.0f, 1.0f} }; 
-        Vertices[1] = FEngineVertex{ FVector(0.5f, 0.0f, 0.5f), {0.0f, 0.5f}, {1.0f, 0.0f, 0.0f, 1.0f} }; 
+        Vertices[0] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.0f), {0.5f, 1.0f}, {1.0f, 0.0f, 0.0f, 1.0f} }; 
+        Vertices[1] = FEngineVertex{ FVector(0.0f, 0.0f, 0.5f), {0.0f, 0.5f}, {1.0f, 0.0f, 0.0f, 1.0f} }; 
         Vertices[2] = FEngineVertex{ FVector(0.0f, 1.0f, 0.0f), {0.5f, 0.0f}, {1.0f, 0.0f, 0.0f, 1.0f} };
 
-        Vertices[3] = FEngineVertex{ FVector(0.5f, 0.0f, 0.5f), {1.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
-        Vertices[4] = FEngineVertex{ FVector(0.5f, 0.0f, -0.5f), {0.5f, 0.0f}, {1.0f, 0.0f, 1.0f, 1.0f} }; 
+        Vertices[3] = FEngineVertex{ FVector(0.0f, 0.0f, 0.5f), {1.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
+        Vertices[4] = FEngineVertex{ FVector(0.5f, 0.0f, -0.0f), {0.5f, 0.0f}, {1.0f, 0.0f, 1.0f, 1.0f} }; 
         Vertices[5] = FEngineVertex{ FVector(0.0f, 1.0f, -0.0f), {0.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
 
-        Vertices[6] = FEngineVertex{ FVector(0.5f, 0.0f, -0.5f), {0.5f, 1.0f}, {1.0f, 0.0f, 0.0f, 1.0f} };
-        Vertices[7] = FEngineVertex{ FVector(-0.5f, 0.0f, -0.5f), {1.0f, 0.5f}, {1.0f, 0.0f, 0.0f, 1.0f} };
+        Vertices[6] = FEngineVertex{ FVector(0.5f, 0.0f, -0.0f), {0.5f, 1.0f}, {1.0f, 0.0f, 0.0f, 1.0f} };
+        Vertices[7] = FEngineVertex{ FVector(-0.0f, 0.0f, -0.5f), {1.0f, 0.5f}, {1.0f, 0.0f, 0.0f, 1.0f} };
         Vertices[8] = FEngineVertex{ FVector(0.0f, 1.0f, -0.0f), {1.0f, 0.5f}, {1.0f, 0.0f, 0.0f, 1.0f} };
 
-        Vertices[9] = FEngineVertex{ FVector(-0.5f, 0.0f, -0.5f), {0.5f, 1.0f}, {1.0f, 0.0f, 1.0f, 1.0f} };
-        Vertices[10] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.5f), {1.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
+        Vertices[9] = FEngineVertex{ FVector(0.0f, 0.0f, -0.5f), {0.5f, 1.0f}, {1.0f, 0.0f, 1.0f, 1.0f} };
+        Vertices[10] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.0f), {1.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
         Vertices[11] = FEngineVertex{ FVector(0.0f, 1.0f, -0.0f), {1.0f, 0.5f}, {1.0f, 0.0f, 1.0f, 1.0f} };
 
-        Vertices[12] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.5f), {0.5f, 1.0f}, {1.0f, 1.0f, 0.0f, 1.0f} };
-        Vertices[13] = FEngineVertex{ FVector(0.5f, 0.0f, 0.5f), {0.0f, 0.5f}, {1.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[12] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.0f), {0.5f, 1.0f}, {1.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[13] = FEngineVertex{ FVector(0.0f, 0.0f, 0.5f), {0.0f, 0.5f}, {1.0f, 1.0f, 0.0f, 1.0f} };
         Vertices[14] = FEngineVertex{ FVector(0.0f, -1.0f, 0.0f), {0.5f, 0.0f}, {1.0f, 1.0f, 0.0f, 1.0f} };
 
-        Vertices[15] = FEngineVertex{ FVector(0.5f, 0.0f, 0.5f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
-        Vertices[16] = FEngineVertex{ FVector(0.5f, 0.0f, -0.5f), {0.5f, 0.0f}, {0.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[15] = FEngineVertex{ FVector(0.0f, 0.0f, 0.5f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[16] = FEngineVertex{ FVector(0.5f, 0.0f, -0.0f), {0.5f, 0.0f}, {0.0f, 1.0f, 0.0f, 1.0f} };
         Vertices[17] = FEngineVertex{ FVector(0.0f, -1.0f, -0.0f), {0.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
 
-        Vertices[18] = FEngineVertex{ FVector(0.5f, 0.0f, -0.5f), {0.5f, 1.0f}, {1.0f, 1.0f, 0.0f, 1.0f} };
-        Vertices[19] = FEngineVertex{ FVector(-0.5f, 0.0f, -0.5f), {1.0f, 0.5f}, {1.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[18] = FEngineVertex{ FVector(0.5f, 0.0f, -0.0f), {0.5f, 1.0f}, {1.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[19] = FEngineVertex{ FVector(-0.0f, 0.0f, -0.5f), {1.0f, 0.5f}, {1.0f, 1.0f, 0.0f, 1.0f} };
         Vertices[20] = FEngineVertex{ FVector(0.0f, -1.0f, -0.0f), {1.0f, 0.5f}, {1.0f, 1.0f, 0.0f, 1.0f} };
 
-        Vertices[21] = FEngineVertex{ FVector(-0.5f, 0.0f, -0.5f), {0.5f, 1.0f}, {0.0f, 1.0f, 0.0f, 1.0f} };
-        Vertices[22] = FEngineVertex{ FVector(-0.5f, 0.0f, 0.5f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
-        Vertices[23] = FEngineVertex{ FVector(0.0f, -1.0f, -0.0f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[21] = FEngineVertex{ FVector(0.0f, 0.0f, -0.5f), {0.5f, 1.0f}, {0.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[22] = FEngineVertex{  FVector(-0.5f, 0.0f, 0.0f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
+        Vertices[23] = FEngineVertex{  FVector(0.0f, -1.0f, -0.0f), {1.0f, 0.5f}, {0.0f, 1.0f, 0.0f, 1.0f} };
 
         UEngineVertexBuffer::Create("Cube", Vertices);
 
