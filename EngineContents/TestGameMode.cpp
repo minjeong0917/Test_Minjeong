@@ -17,6 +17,10 @@ ATestGameMode::ATestGameMode()
 {
 	Polygon = GetWorld()->SpawnActor<Apolygon>();
 
+	std::shared_ptr<ACameraActor> Camera = GetWorld()->GetMainCamera();
+	Camera->SetActorLocation({ 0.0f, 0.0f, -1000.0f, 1.0f });
+	Camera->GetCameraComponent()->SetZSort(0, true);
+
 
 }
 
@@ -32,4 +36,5 @@ void ATestGameMode::Tick(float _DeltaTime)
 		GetWorld()->GetMainCamera()->FreeCameraSwitch();
 
 	}
+
 }
