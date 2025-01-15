@@ -28,6 +28,7 @@ Apolygon::~Apolygon()
 void Apolygon::BeginPlay()
 {
 	AActor::BeginPlay();
+	Renderer->SetRotation({ 0.0f,45.0f,0.0f });
 
 
 }
@@ -35,6 +36,5 @@ void Apolygon::BeginPlay()
 void Apolygon::Tick(float _DeltaTime)
 {
 	AActor::Tick(_DeltaTime);
-
 
 }
